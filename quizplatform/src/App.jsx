@@ -1,10 +1,13 @@
+import React from 'react'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
 
-function App() {
-  
-
+const App = () => {
   return (
-    <><h1>Hello</h1></>
-   
+    <>
+    <Navbar/>
+    <Home/>
+    </>
   )
 }
 
